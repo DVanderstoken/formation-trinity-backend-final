@@ -1,0 +1,8 @@
+CREATE TABLE T_REGION ( 
+  REGION   varchar(2)  NOT NULL,
+  CHEFLIEU varchar(5)  DEFAULT NULL, 
+  TNCC     varchar(1)  DEFAULT NULL, 
+  NCC      varchar(70) DEFAULT NULL, 
+  NCCENR   varchar(70) DEFAULT NULL, 
+  CONSTRAINT pk_region PRIMARY KEY (REGION)
+)

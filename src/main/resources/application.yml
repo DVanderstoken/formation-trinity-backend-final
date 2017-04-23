@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Formation Trinity Backend
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database-platform: org.hibernate.dialect.HSQLDialect
+  datasource:
+    url: jdbc:hsqldb:mem:testdb
+    driverClassName: org.hsqldb.jdbcDriver
+    username: sa
+    password:
+    platform: hsqldb
+  data:
+    rest:
+      base-uri: /api
+flyway:
+  enabled: true          
