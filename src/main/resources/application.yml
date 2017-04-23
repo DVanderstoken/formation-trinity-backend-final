@@ -1,3 +1,5 @@
+server:
+  contextPath: /api/v1
 spring:
   application:
     name: Formation Trinity Backend
@@ -12,8 +14,5 @@ spring:
     username: sa
     password:
     platform: hsqldb
-  data:
-    rest:
-      base-uri: /api
 flyway:
   enabled: true          
